@@ -378,6 +378,13 @@ section{
     width: 90%;
     padding: 10px;
     margin: 10px 5px;
+    text-decoration: none;
+   
+}
+
+#adiciona-carrinho{
+    text-decoration: none;
+    color: white;
 }
 
 .payment-and-delivery{
