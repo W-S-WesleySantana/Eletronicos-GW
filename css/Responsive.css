@@ -3272,112 +3272,46 @@ footer{
 }
 
 
-@media (max-width: 361px) {
+@media (max-width: 360px) {
 
     header{
-    
-        width:100%;
-        height:70px;
-        margin-bottom: 10px;
-        background: #ffffff;
-        
-       
-      
+        height:auto;
     }
-
-    .tittle{
-        margin: 5px 0 5px 100px;
+    .nav-link,.barraPesquisa,.icone-carrinho{
+        display: none;
     }
     
- 
-    .subtitle{
-        display:inline-block;
-        font-size: 15px;
-        color: gray;
-        margin: 0 80px 0 0;
-     
-    }
-    
-    h1{
-        font-size: 30px;
-        color:#1569d6;
-        width: 80px;
-    
-    }
-    
-    
-    
-    .nav-link{
-       
-     
-        font-size: 12px;
-        margin: 0 10px;
-        font-weight: bold;
-     }
-    
-    .barraPesquisa{
-       display: inline-block;
-       width: 100px;
-       height: 25px;
-       font-size: 8px;
-       border-radius: 7px;
-       margin: 0;
-    }
-    
-    .icone-carrinho{
-       
-        width: 25px;
-        height: 25px;
-        border-radius: 8px;
-        border:1.5px solid gray;
-        margin: 0;
-      
-    }
-
     section{
   
-        display:flex;
-        width: 100%;
-        height: 350px;
-        background: #1569d6;
-     
-       
-    }
-    
-    .section-left{
-        
-        width:50%;
+       height: auto;
     }
     
     .h2-section{
        
-        margin-left: 100px;
-        font-size: 30px;
-        margin-top: 100px;
+        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 50px;
     }
     
     .paragrafo-section{
-        
-        
-        margin-left: 100px;
-        color: white;
-        font-size: 15px;
+        margin-left: 10px;
+        font-size: 10px;
         margin-top: 10px;
-        width: 300px;
+        width: 150px;
     }
     
     .btn-primary{
-        margin-left: 100px;
+        margin-left: 10px;
         margin-top: 20px;
-        padding: 10px 20px;
+        padding: 5px 20px;
         font-size: 12px;
 
     }
    
     .btn-secondary{
         margin-left: 10px;
-        margin-top: 20px;
-        padding: 10px 20px;
+        margin-top: 10px;
+        padding: 5px 20px;
         font-size: 12px;
        
         
@@ -3385,116 +3319,73 @@ footer{
        
           .logo-image{
     
-        width: 300px;
-        height: 250px;
-        margin-left: 15px;
+        width: 155px;
+        height: auto;
+        margin-left: 0;
+        margin-top: 25px;
     }
-    
-    .subheader{
-    
-       
-         width: 100%;
-         height: 250px;
-    
-    }
-    
     
     .h2-subheader{
-        font-size: 30px;
-        text-align: center;
-        margin: 20px auto 40px auto;
+        font-size: 15px;
     }
     
     .category1{
     
-        width: 100px;
-        height: 120px;
-        margin-left: 75px;
+      
+        height: auto;
+        margin-left: 70px;
         margin-right: 10px;
        
     }
     
-    .category2{
-    
-        width: 100px;
-        height: 120px;
+    .category2,.category3,.category4,.category5,.category6{
+
+        height: auto;
         margin-right: 10px;
+       
        
     }
     
-    .category3{
-    
-        width: 100px;
-        height: 120px;
-        margin-right: 10px;
-       
-    }
-    
-    .category4{
-    
-        width: 100px;
-        height: 120px;
-        margin-right: 10px;
-    }
-    
-    .category5{
-    
-        width: 100px;
-        height: 120px;
-        margin-right: 10px;
-       
-    }
-    
-    .category6{
-    
-        width: 100px;
-        height: 120px;
-        margin-right: 10px;
-       
-    }
+   
     
     .featured-products{
        
-        width: 100%;
-        height: 420px;
+        height: auto;
       
 
     }
     
     .h2-featured-products{
     
-        font-size: 20px;
-        text-align: start;
+        font-size: 15px;
+        text-align: center;
         
     
     }
 
     .link-featured-products{
-        margin-left: 80%;
-        padding: 3px;
+       display: none;
     }
     
     .oferta-image{
     
         width: 100%;
         height: 50%;
-        border-radius: 10px;
-        margin-bottom: 15px;
     
     }
     
-    .oferta1{
+    .oferta1,.oferta3{
     
         width:150px;
         height: 320px;
-        margin-left: 60px;
+        margin-left: 25px;
         margin-right: 10px;
       
     
     
     }
     
-    .oferta2{
+    .oferta2,.oferta4{
     
         width:150px;
         height: 320px;
@@ -3502,170 +3393,64 @@ footer{
         margin-right: 10px;
     }
     
-    .oferta3{
-    
-        width:150px;
-        height: 320px;
-        background:#ffffff;
-        margin-right: 10px;
-    }
-    
-    .oferta4{
-        width:150px;
-        height: 320px;
-        background:#ffffff;
-        margin-right: 10px;
-    
-    }
-    
-    .product-name{
-        font-size: 10px;
-        font-weight: bold;
-        opacity: 0.8;
-        margin-left: 5px;
-    }
-
-    .product-value{
-        color: #1569d6;
-        margin-left: 5px;
-
-    }
-
-    .offer-classification{
-        margin: 0 ;
-        font-size: 10px;
-    }
-
-    
-    
-    .btn-featured-products{
-    
-        font-size: 10px;
-        cursor: pointer;
-        width: 90%;
-        padding: 5px;
-        margin-bottom: 15px;
-
-    }
-
-
-    .payment-and-delivery{
    
-        height: 200px;
-        margin-top: 20px;
-       
-    }
     
-    .delivery{
-        width:  250px;
-        height: 180px; 
-        margin-left: 30px;
-        margin-right: 10px;
+   
     
-    }
-    
-    .carrinho-delivery,.card-payment,.padlock-shopping{
-     
-      font-size: 20px;
-      margin-bottom: 5px;
-    
-    }
-    
-    
-    
-    .payment{
-        width:  250px;
-        height: 180px; 
-        margin-right: 10px; 
-    }
-    
-    
-    
-    .p-payment,.p-shopping, .p-delivery{
-    
-        font-weight: 500;
-        color: #686969;
-        font-size: 10px;
-
-    
-    }
-    
-    .shopping{
-        width:  250px;
-        height: 180px; 
-        margin-right: 10px; 
-    }
-
-    .invitation{
    
   
-    width: 100%;
-    height: 250px;
-    display: flex;
-}
 
 .logo-invitation{
    
     margin: 25px 15px 10px 25px;
     border-radius: 15px;
+    width: 300px;
 }
 
 .h2-invitation{
-    margin:40px 0 10px 0;
+    margin-left: 15px;
 }
 
-.✓{
-    color: #1ece1e;
-}
-
-.p-invitation{
-   
-    font-size: 12px;
-}
 
 
 .access-to-contacts{
     
     width: 100%;
-    height: 180px;
-    display: flex;
+    height: auto;
+    display: inline-block;
    
 }
 
 .p-telephone{
 
+    margin: 10px 10px 10px 20px;
+    width: auto;
     background: #ffffff;
-    margin: 10px 10px 10px 0px;
-    width: 220px;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
-    margin: 10px;
-    font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
+
 }
 
 .p-email{
     
     margin: 10px 10px 10px 20px;
-    width: 220px;
+    width: auto;
     background: #ffffff;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
-    margin: 10px;
-    font-size: 13.5px;
-    font-weight: 400;
+    font-weight: 500;
 
 }
 
 .p-address{
-    margin: 10px 10px 10px 0;
-    width: 220px;
+    margin: 10px 10px 10px 20px;
+    width: auto;
     background: #ffffff;
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
-    margin: 10px;
-    font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
+
 
 }
 
@@ -3673,32 +3458,28 @@ footer{
   
     display: flex;
     width: 100%;
-    height: 200px;
+    height: auto;
     background: #131d29;
 }
 
 .footer1{
    
-    margin: 0px 10px 10px 50px;
+    margin: 0px 10px 10px 5px;
     width: 150px;
     height: 180px;
     
 }
 
 .h4-footer1, .h4-footer2,.h4-footer3,.h4-footer4 {
-    text-align: center;
-    color: #e1e1e1;
-    font-size: 14px;
-    margin-top:50px;
+    font-size: 12px;
+    margin-top:10px;
 }
 
 .p-footer1,.p-footer2,.p-footer3,.p-footer4{
  
-    font-weight: 500;
-    color: #b1b1b1;
     margin-top: 15px;
-    font-size: 12px;
-    margin-left: 25px;
+    font-size: 10px;
+    margin-left: 0;
     line-height: 1.5;
     cursor: pointer;
 }
@@ -3708,30 +3489,6 @@ footer{
     color: #515151;
 }
 
-
-.footer2{
-  
-    margin: 0px 10px 10px 10px;
-    width: 150px;
-     height: 180px;
-    
-}
-
-
-
-.footer3{
-   
-    margin: 0px 10px 10px 10px;
-    width: 150px;
-    height: 180px;
-}
-
-.footer4{
-   
-    margin: 0px 10px 10px 10px;
-    width: 150px;
-    height: 180px;
-}
 
 
 .copyright{
@@ -3744,13 +3501,9 @@ footer{
 .copyright1{
  
 
-    width: 70%;
+    width: 50%;
     height: 50px;
-    margin: 0px 10px 0 100px;
-    color: #ffffff;
-    font-size: 13px;
-    text-align: center;
-    border-top: #686969 solid 0.5px;
+    margin: 0px 10px 0 80px;
 
 }
 
