@@ -7,6 +7,15 @@ const produtos = [
     { nome: "REDMI NOTE 14", preco: 1650.00, src: "assets/img/Celulares/note 14.webp" },
     { nome: "REDMI NOTE 15 PRO", preco: 2200.00, src: "assets/img/Celulares/note 15 pro.jfif" },
     { nome: "REDMI NOTE 15", preco: 1850.00, src: "assets/img/Celulares/note15.webp" },
+    { nome: "POCO C71", preco: 1150, src: "assets/img/Celulares/Poco/POco c71.jfif" },
+    { nome: "POCO C65", preco: 1100, src: "assets/img/Celulares/Poco/poco c65.jfif" },
+    { nome: "POCO C75", preco: 1350, src: "assets/img/Celulares/Poco/poco c75.webp" },
+    { nome: "POCO C85", preco: 1950, src: "assets/img/Celulares/Poco/poco c85.jfif" },
+    { nome: "POCO M7", preco: 2000, src: "assets/img/Celulares/Poco/poco m7.webp" },
+    { nome: "POCO M8", preco: 2500, src: "assets/img/Celulares/Poco/poco m8.jfif" },
+    { nome: "POCO M8 PRO", preco: 2650, src: "assets/img/Celulares/Poco/poco m8 pro.webp" },
+    { nome: "POCO X7", preco: 2750, src: "assets/img/Celulares/Poco/poco x7.jpg" },
+    { nome: "POCO X7 PRO", preco: 2900, src: "assets/img/Celulares/Poco/poco x7 pro.jfif" },
     
 
 
