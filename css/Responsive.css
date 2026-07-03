@@ -978,11 +978,76 @@ footer{
    
 }
 
+@media (max-width: 853px) {
+
+    .categorias{
+    
+         display: grid;
+         grid-template-columns: repeat(3, 0.5fr);
+         padding: 10px;
+        
+             
+        }
+    
+        .categoria1{
+            font-size: 20px;
+           
+        
+        }
+        .nome-categoria1{
+            font-size: 15px;
+        }
+        .invitation{
+     
+            height: auto;
+        }
+        
+        .logo-invitation{
+           
+            width: 350px;
+        }
+        
+        .h2-invitation{
+            margin:40px 0 10px 0;
+        }
+        
+        .✓{
+            color: #1ece1e;
+        }
+        
+        .p-invitation{
+            
+        width: 70%;}
+        
+        footer{
+            display: flex;
+        }
+        
+    }
+
 
 @media (max-width: 820px) {
 
-  
-    .invitation{
+.categorias{
+
+     display: grid;
+     grid-template-columns: repeat(3, 0.5fr);
+     padding: 10px;
+    
+         
+    }
+
+    .categoria1{
+        font-size: 20px;
+       
+    
+    }
+    .nome-categoria1{
+        font-size: 15px;
+    
+    }
+    
+.invitation{
      
     height: auto;
 }
@@ -1507,6 +1572,33 @@ footer{
 
 @media (max-width: 768px) {
 
+    .categorias{
+    
+        display: grid;
+        grid-template-columns: repeat(3, 0.5fr);
+        padding: 10px;
+       
+            
+       }
+   
+       .categoria1{
+           font-size: 20px;
+          
+       
+       }
+       .nome-categoria1{
+           font-size: 15px;
+       }
+       .invitation{
+    
+           height: auto;
+       }
+       
+       .logo-invitation{
+          
+           width: 350px;
+       }
+       
   
     .invitation{
     height: auto;
@@ -1545,7 +1637,45 @@ footer{
 
 @media (max-width: 431px) {
 
+    .categorias{
+    
+        display: grid;
+        grid-template-columns: repeat(2, 0.5fr);
+        padding: 10px;
+       
+            
+       }
+   
+       .categoria1{
+           font-size: 20px;
+          
+       
+       }
+       .nome-categoria1{
+           font-size: 15px;
+       }
+       .invitation{
+    
+           height: auto;
+       }
+       
+       .logo-invitation{
+          
+           width: 350px;
+       }
 
+       ul{
+  
+        width: 100%;
+        padding: 20px;
+        list-style: none;
+        background: #f4f4f4;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    
+    }
+       
 
     
     .nav-link,.barraPesquisa,.icone-carrinho{
