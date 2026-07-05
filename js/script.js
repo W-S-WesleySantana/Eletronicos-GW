@@ -30,13 +30,14 @@ renderizarProdutos(produtos);
 
 let numeroDeItens = 0;
 
-const botaoAdicionar = document.querySelector(".bnt-li");
+const botaoAdicionar = document.querySelectorAll(".bnt-li");
 const contadorItens = document.querySelector(".contador-carrinho");
 
-botaoAdicionar.addEventListener("click", function() {
-numeroDeItens += 1;
-
-contadorItens.textContent = numeroDeItens;
+botaoAdicionar.forEach(button => {
+    button.addEventListener("click", function() {
+        numeroDeItens += 1;
+        contadorItens.textContent = numeroDeItens;
+    });
 });
 
 

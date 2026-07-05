@@ -5,15 +5,26 @@
     font-family: "Montserrat", sans-serif;
 }
 
+main{
+   padding: 30px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
 .Volta-Inicio{
     
-   width: 150px;
+   width: 250px;
    margin: 30px;
    font-size: 20px;
-   border: none;
-   background: none;
+   border: 1.5px solid #0b0b0b;
    font-weight: bold;
    color: #0e3c7a;
+   border-radius: 15px;
+   padding: 5px;
 }
 #voltaInicio{
     text-decoration: none;
@@ -21,6 +32,8 @@
 }
 #voltaInicio:hover{
     color: #0d7f24;
+  
+
 }
 
 .h2-produtos{
