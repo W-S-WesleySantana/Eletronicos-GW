@@ -1,13 +1,18 @@
 const produtos = [
-    { nome: "REDMI A5", preco: 940.00, src: "assets/img/Celulares/Redmi a5.jfif" },
-    { nome: "REDMI A7 pro", preco: 1350.00, src: "assets/img/Celulares/Redmi a7 pro.jfif" },
-    { nome: "REDMI 15", preco: 1500.00, src: "assets/img/Celulares/Redmi15.jfif" },
-    { nome: "REDMI 15C", preco: 1650.00, src: "assets/img/Celulares/redmi 15c.webp" },   
-  ];
+    { nome: "ASPIRADOR 3/1", preco: 0.00, src: "assets/img/Acessorios/Aspirador 3 em 1.jpg" },
+    { nome: "CAIXA DE SOM", preco: 0.00, src: "assets/img/Acessorios/Caixa de som.jpg" },
+    { nome: "CARREGADOR 120W", preco: 0.00, src: "assets/img/Acessorios/Carregador 120W.jpg" },
+    { nome: "CARREGADOR TURBO", preco: 0.00, src: "assets/img/Acessorios/Carregador turbo.jpg" },
+    { nome: "CARREGADOR IPHONE", preco: 0.00, src: "assets/img/Acessorios/images.jpg" },
+
+]
 
 
 
-function renderizarProdutos(lista) {
+
+
+
+  function renderizarProdutos(lista) {
     const container = document.querySelector('.lista-ofertas');
     let htmlGerado = '';
 
@@ -37,14 +42,11 @@ renderizarProdutos(produtos);
 
 let numeroDeItens = 0;
 
-const botaoAdicionar = document.querySelectorAll(".bnt-li");
+const botaoAdicionar = document.querySelector(".bnt-li");
 const contadorItens = document.querySelector(".contador-carrinho");
 
-botaoAdicionar.forEach(button => {
-    button.addEventListener("click", function() {
-        numeroDeItens += 1;
-        contadorItens.textContent = numeroDeItens;
-    });
+botaoAdicionar.addEventListener("click", function() {
+numeroDeItens += 1;
+
+contadorItens.textContent = numeroDeItens;
 });
-
-
