@@ -1,5 +1,12 @@
-
-
+const produtos = [
+    { nome: "DT 20 MAX Watch", preco: 0.00, src: "assets/img/SmartWats/DT 20 MAX Watch.jfif" },
+    { nome: "SmartWatch NFC", preco: 0.00, src: "assets/img/SmartWats/SmartWatch NFC.jfif" },
+    { nome: "SmartWatch Ultra X9", preco: 0.00, src: "assets/img/SmartWats/Smartwatch Ultra X9.jfif" },
+    { nome: "Ultra 9", preco: 0.00, src: "assets/img/SmartWats/ULTRA 9.jfif" },
+    { nome: "X10 Ultra", preco: 0.00, src: "assets/img/SmartWats/X10 Ultra Mini.jfif" },
+    { nome: "X9 PRO", preco: 0.00, src: "assets/img/SmartWats/X9 PRO.jfif" },
+    
+]
 
 
 
