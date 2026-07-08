@@ -11,13 +11,26 @@
     <title>Acessórios</title>
 </head>
 <body>
+    
+    <Button class="Volta-Inicio" ><a id="voltaInicio" href="./index.html#categorias"> &#11164 Volta ao inicio</a></Button>
 
+
+    <div> 
+
+        <img class="logo-page"src="./assets/img/Acessorios/logo-page.jpg" alt="logo da loja" class="logo-page" >
+  
+    </div>
+
+    
+    <button class="icone-carrinho">&#128722;
+    </button>
+    <span class="contador-carrinho"></span>
+    
     <main>
 
 
-<Button class="Volta-Inicio" ><a id="voltaInicio" href="./index.html#categorias">Volta ao inicio</a></Button>
 
-<div id="ofertas" class="produtos-em-destaque">
+<div id="ofertas" class="produtos-em-destaque"> 
 
     <h2 class="h2-produtos">Acessórios</h2>
 
@@ -31,9 +44,25 @@
 
 </div>
 
+<div id="carrinho-lateral" class="carrinho-oculto">
+    <div class="carrinho-cabecalho">
+        <h2 class="h2-carrinho">Seu Carrinho</h2>
+        <button id="btn-fechar-carrinho">Fecha carrinho</button>
+    </div>
+    <div class="carrinho-conteudo">
+        <p id="texto-carrinho">Seu carrinho está vazio.</p>
+    </div>
+</div>
+
+
+<div id="overlay" class="carrinho-oculto"></div>
+
+
         
     </main>
 
+   
+    
     <script src="./js/acessorios.js"></script>
 
 </body>
