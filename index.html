@@ -37,11 +37,24 @@
         <input class="barraPesquisa" type="text" placeholder="&#128270 Buscar Produtos...">
 
 
-        <button class="icone-carrinho">🛒
+        <button class="icone-carrinho">&#128722;
         </button>
         <span class="contador-carrinho"></span>
 
     </header>
+
+    <div id="carrinho-lateral" class="carrinho-oculto">
+        <div class="carrinho-cabecalho">
+            <h2 class="h2-carrinho">Seu Carrinho</h2>
+            <button id="btn-fechar-carrinho">Fecha carrinho</button>
+        </div>
+        <div class="carrinho-conteudo">
+            <p id="texto-carrinho">Seu carrinho está vazio.</p>
+        </div>
+    </div>
+    
+    
+    <div id="overlay" class="carrinho-oculto"></div>
 
     <main>
 
@@ -272,7 +285,7 @@
     </main>
 
 
-    <script src="./js/Produtos.js"></script>
+  
     <script src="./js/script.js"></script>
 </body>
 

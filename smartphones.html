@@ -1,41 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
-    href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/smartphones.css">
     <link rel="stylesheet" href="./css/Responsive.css">
+
     <title>Smartphones</title>
 </head>
+
 <body>
+
+
+    <Button class="Volta-Inicio"><a id="voltaInicio" href="./index.html#categorias"> &#11164 Volta ao
+            inicio</a></Button>
+
+    <div>
+
+        <img class="logo-page" src="assets/img/Celulares/Logo page.jfif" alt="logo da loja" class="logo-page">
+
+    </div>
+
+    
+    <button class="icone-carrinho">&#128722;
+    </button>
+    <span class="contador-carrinho"></span>
+
+    
+    <div id="ofertas" class="produtos-em-destaque">
+
+
+
+        <h2 class="h2-produtos">Smartphones </h2>
+
+
+        <ul class="lista-ofertas">
+
+
+        </ul>
+
+    </div>
+
+    <div id="carrinho-lateral" class="carrinho-oculto">
+        <div class="carrinho-cabecalho">
+            <h2 class="h2-carrinho">Seu Carrinho</h2>
+            <button id="btn-fechar-carrinho">Fecha carrinho</button>
+        </div>
+        <div class="carrinho-conteudo">
+            <p id="texto-carrinho">Seu carrinho está vazio.</p>
+        </div>
+    </div>
+    
+    
+    <div id="overlay" class="carrinho-oculto"></div>
 
     <main>
 
-
-<Button class="Volta-Inicio" ><a id="voltaInicio" href="./index.html#categorias">Volta ao inicio</a></Button>
-
-<div id="ofertas" class="produtos-em-destaque">
-
-    <h2 class="h2-produtos">Smartphones</h2>
-
-
-    <ul class="lista-ofertas">
-
-
-    </ul>
-
-  
-
-</div>
-
-
-
-        
     </main>
 
     <script src="./js/smartphones.js"></script>
+
 </body>
+
 </html>

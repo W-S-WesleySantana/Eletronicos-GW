@@ -1231,7 +1231,7 @@ footer{
        
 
     
-    .nav-link,.barraPesquisa,.icone-carrinho{
+    .nav-link,.barraPesquisa{
        display: none;
       
     }
@@ -1531,7 +1531,7 @@ footer{
         margin: 5px 0 5px 50px;
     }
     
-    .nav-link, .barraPesquisa, .icone-carrinho{
+    .nav-link, .barraPesquisa{
        
      display: none;
      }
@@ -1901,11 +1901,7 @@ footer{
       display: none;
     }
     
-    .icone-carrinho{
-       
-    display: none;
-      
-    }
+   
 
     section{
   
@@ -2237,7 +2233,7 @@ footer{
      
     }
 
-    .nav-link,.barraPesquisa,.icone-carrinho{
+    .nav-link,.barraPesquisa{
         display: none;
     }
 
@@ -2530,11 +2526,7 @@ footer{
      
     }
     
-    .icone-carrinho{
-       
-     display: none;
-      
-    }
+   
 
     section{
   
@@ -2977,7 +2969,7 @@ footer{
     header{
         height:auto;
     }
-    .nav-link,.barraPesquisa,.icone-carrinho{
+    .nav-link,.barraPesquisa{
         display: none;
     }
     
