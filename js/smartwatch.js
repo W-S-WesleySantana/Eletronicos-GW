@@ -191,9 +191,42 @@ function atualizarCarrinhoLateral() {
 }
 
 function finalizarCompra() {
-  alert("Obrigado pela sua compra! Seu pedido foi processado com sucesso.");
-  itensNoCarrinho = [];
-  if(contadorItens) contadorItens.textContent = "0";
-  atualizarCarrinhoLateral();
-  fecharCarrinho();
-}
+   
+    const numeroWhatsapp = "5511958396087";
+  
+  
+    if (itensNoCarrinho.length === 0) {
+      alert("Seu carrinho está vazio!");
+      return;
+    }
+  
+   
+    let mensagem = "🛒 *Novo Pedido!* \n\n";
+    let total = 0;
+  
+    itensNoCarrinho.forEach((item) => {
+      const subtotal = item.preco * item.quantidade;
+      total += subtotal;
+      
+      
+      mensagem += `▪️ *${item.nome}* \n`;
+      mensagem += `  Qtd: ${item.quantidade} x R$ ${item.preco.toFixed(2)} = R$ ${subtotal.toFixed(2)}\n\n`;
+    });
+  
+    mensagem += `💰 *Total do Pedido:* R$ ${total.toFixed(2)}`;
+  
+    
+    const mensagemFormatada = encodeURIComponent(mensagem);
+    const urlWhatsapp = `https://wa.me/${numeroWhatsapp}?text=${mensagemFormatada}`;
+  
+   
+    window.open(urlWhatsapp, "_blank");
+  
+ 
+    alert("Obrigado pela sua compra! Redirecionando para o WhatsApp para finalizar seu pedido...");
+    itensNoCarrinho = [];
+    if (contadorItens) contadorItens.textContent = "0";
+    atualizarCarrinhoLateral();
+    fecharCarrinho();
+  }
+
